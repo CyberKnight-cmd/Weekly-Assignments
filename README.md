@@ -18,11 +18,11 @@ This repository is aimed at students and Python enthusiasts who are looking to p
 
 
 ### Assignment - 1 (Playing With Numbers)
-- To print the last digit.[Python](Python/Assignment1/Prog1.py) || [C](C/Assignment1/Prog1.C)
-- Print the second last digit[Python](Python/Assignment1/Prog2.py) || [C](C/Assignment1/Prog2.C)
-- Exchange the last two digits[Python](Python/Assignment1/Prog3.py) || [C](C/Assignment1/Prog3.C)
-- Find product after exchaning last digits[Python](Python/Assignment1/Prog4.py) || [C](C/Assignment1/Prog4.C)
-- Print the sum of last two digits[Python](Python/Assignment1/Prog5.py) || [C](C/Assignment1/Prog5.C)
+- To print the last digit.([Python])(Python/Assignment1/Prog1.py) || ([C])(C/Assignment1/Prog1.C)
+- Print the second last digit([Python])(Python/Assignment1/Prog2.py) || ([C])(C/Assignment1/Prog2.C)
+- Exchange the last two digits([Python])(Python/Assignment1/Prog3.py) || ([C])(C/Assignment1/Prog3.C)
+- Find product after exchaning last digits([Python])(Python/Assignment1/Prog4.py) || ([C])(C/Assignment1/Prog4.C)
+- Print the sum of last two digits([Python])(Python/Assignment1/Prog5.py) || ([C])(C/Assignment1/Prog5.C)
 - [Questions](Assignment1/PythonWeeklyAssignment1.pdf)
 
 ### Assignment - 2 (Basics of Expression)
