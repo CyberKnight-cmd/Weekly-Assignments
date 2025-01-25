@@ -1,0 +1,1 @@
+print(f"{len(input().split()) - 1} spaces found!")
