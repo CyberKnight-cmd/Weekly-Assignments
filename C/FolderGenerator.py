@@ -33,7 +33,7 @@ while True:
             print(f"File 'Prog{i}.c' was created successfully at {subfolder_path}.")
         
         # Committing the boiler plate to git
-        os.system(f'git add {subfolder_name}/')
+        os.system(f'git add ./{subfolder_name}/')
         os.system(f'git commit -a -m "Adding template for {subfolder_name} in C directory')
         
 
