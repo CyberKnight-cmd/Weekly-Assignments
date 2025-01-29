@@ -13,7 +13,10 @@ matrix = [list(map(int, input(f"Row {i+1} : ").split())) for i in range(3)]
 7 8 9       1 4 7
 """
 
+rotatedMatrix = []
+
 for i in range(len(matrix)):
-    for j in range(len(matrix)):
-        print(matrix[i][j], end=' ')
-    print()
+    for j in range(len(matrix[i])):
+        rotatedMatrix[i][j] = matrix[j][i]
+
+print(rotatedMatrix)

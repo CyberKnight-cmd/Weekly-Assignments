@@ -2,6 +2,8 @@
 
 Welcome to the **Python Weekly Assignments** repository! This repository contains a collection of weekly Python assignments, each designed to enhance your programming skills and understanding of various Python concepts. The assignments are categorized by week, with each week featuring five unique programming challenges.
 
+### [Access the Study Material for Python here.](./Python/Python_Study%20Material-BSH.pdf)
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -13,7 +15,7 @@ Welcome to the **Python Weekly Assignments** repository! This repository contain
 ## Overview
 
 This repository is aimed at students and Python enthusiasts who are looking to practice and improve their Python programming skills. Each week's assignments cover a range of topics and challenges, from basic data types and control structures to more advanced concepts like file handling and machine learning.
-### [Access the Study Material for Python here.](./Python/Python_Study%20Material-BSH.pdf)
+
 
 
 ### [Access the merged list of questions here.](Questions/PythonWeeklyAssignment_Merged.pdf)
