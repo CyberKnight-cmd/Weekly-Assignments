@@ -30,7 +30,7 @@ while True:
             file_path = os.path.join(subfolder_path, f"Prog{i}.c")
             with open(file_path, 'w') as file:
                 file.write(f"\\\\ {subfolder_name}\n\\\\ Prog {i}\n\\\\ Write your question here(in shortened form)\n\n\\\\ Write your code here\n")
-            print(f"File 'Prog{i}.py' was created successfully at {subfolder_path}.")
+            print(f"File 'Prog{i}.c' was created successfully at {subfolder_path}.")
         
         # Committing the boiler plate to git
         os.system(f'git add {subfolder_name}/')
@@ -53,10 +53,10 @@ while True:
 
             # Create a new file within the subfolder
             for i in range(1,6):
-                file_path = os.path.join(subfolder_path, f"Prog{i}.py")
+                file_path = os.path.join(subfolder_path, f"Prog{i}.c")
                 with open(file_path, 'w') as file:
                     file.write(f"\\\\ {subfolder_name}\n\\\\ Prog {i}\n\\\\ Write your question here(in shortened form)\n\n\\\\ Write your code here\n")
-                print(f"File 'Prog{i}.py' was created successfully at {subfolder_path}.")
+                print(f"File 'Prog{i}.c' was created successfully at {subfolder_path}.")
             
             m+=1
         os.system(f'git add {" ".join(l)}')
