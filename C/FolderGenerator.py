@@ -29,7 +29,7 @@ while True:
         for i in range(1,6):
             file_path = os.path.join(subfolder_path, f"Prog{i}.c")
             with open(file_path, 'w') as file:
-                file.write(f"\\\\ {subfolder_name}\n\\\\ Prog {i}\n\\\\ Write your question here(in shortened form)\n\n\\\\ Write your code here\n")
+                file.write(f"// {subfolder_name}\n// Prog {i}\n// Write your question here(in shortened form)\n\n// Write your code here\n")
             print(f"File 'Prog{i}.c' was created successfully at {subfolder_path}.")
         
         # Committing the boiler plate to git
@@ -55,7 +55,7 @@ while True:
             for i in range(1,6):
                 file_path = os.path.join(subfolder_path, f"Prog{i}.c")
                 with open(file_path, 'w') as file:
-                    file.write(f"\\\\ {subfolder_name}\n\\\\ Prog {i}\n\\\\ Write your question here(in shortened form)\n\n\\\\ Write your code here\n")
+                    file.write(f"// {subfolder_name}\n// Prog {i}\n// Write your question here(in shortened form)\n\n// Write your code here\n")
                 print(f"File 'Prog{i}.c' was created successfully at {subfolder_path}.")
             
             m+=1
